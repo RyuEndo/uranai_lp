@@ -12,6 +12,16 @@ body {
     background-color: rgb(255, 255, 255);
 }
 
+@media screen and (max-width: 600px) {
+
+body{
+  font-size: 1.5em;
+}
+
+
+}
+
+
 img {
     vertical-align: middle;
     border-style: none;
@@ -155,7 +165,7 @@ tbody th {
 
 h1 {
 	text-align: left!important;
-    font-size: 40px;
+    font-size: 70px;
     line-height: 140%;
     padding: 1em 0.5em;
     color: #494949;
@@ -173,7 +183,7 @@ li{
 }
 
 p {
-    font-size: 15px;
+    font-size: 50px;
     line-height: 210%;
     text-align: center;
     letter-spacing: 0.08em;
