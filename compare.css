@@ -1,0 +1,269 @@
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    background-color: #fff;
+    font-family: PT Sans Caption,Josefin Sans,"メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", Hiragino Kaku Gothic Pro, "ＭＳ Ｐゴシック", sans-serif;
+    /* font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic'; */
+    background-color: rgb(255, 255, 255);
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+    width: 100%;
+    height: auto;
+}
+
+.col-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.button{
+    width: 90%;
+    margin:auto;
+    margin-bottom: 30%;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  padding: 0;
+  width: 850px;
+  table-layout: fixed;
+  color: #000;
+  font-size: 3rem;
+  text-align: left;
+  padding-left: 180px;
+  margin-top:-220px;
+}
+
+table tr {
+  background-color: #fff;
+  padding: .35em;
+  border-bottom: 1px solid #bbb;
+}
+table thead{
+  border-bottom: 5px solid #ff9900;
+}
+table tr:last-child{
+   border-bottom: none
+}
+table th,
+table td {
+  padding: 1em 10px 1em 1em;
+  border-right: 1px solid #bbb;
+}
+table th:last-child,
+table td:last-child{
+    border: none;
+}
+tbody th {
+    color: #ff1493;
+}
+
+/*コメントのUI*/
+.comment-container {
+    padding: 5px 20px 10px 20px;
+    background-color: #f5f5f5;
+       margin: 30px 20px;
+}
+
+.comment-name {
+    border-bottom: solid 2px #a9a9a9;
+    font-size: 15px;
+    padding: 5px 0px;
+}
+
+.comment-title {
+       font-size: 17px;
+    font-weight: bold;
+    padding:  5px 0px;
+    color: #696969;
+}
+
+.comment-content {
+    font-size: 16px;
+    padding: 30px;
+}
+/*コメント終わり*/
+
+.txt{
+   text-align: left;
+   font-size: .85em;
+}
+.price{
+   text-align: right;
+}
+@media screen and (max-width: 600px) {
+  table {
+    border: 0;
+    width:100%
+  }
+  table th{
+    display: block;
+    border-right: none;
+    border-bottom: 5px solid #ff9901;
+    padding-bottom: .6em;
+    margin-bottom: .6em;
+
+  }
+  table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  
+  table tr {
+    display: block;
+    margin-bottom: 2em;
+  }
+  
+  table td {
+    border-bottom: 1px solid #bbb;
+    display: block;
+    font-size: .8em;
+    text-align: right;
+    position: relative;
+    padding: .625em .625em .625em 4em;
+    border-right: none;
+  }
+  
+  table td::before {
+    content: attr(data-label);
+    font-weight: bold;
+    position: absolute;
+    left: 10px;
+  }
+  
+  table td:last-child {
+    border-bottom: 0;
+  }
+}
+
+
+h1 {
+	text-align: left!important;
+    font-size: 40px;
+    line-height: 140%;
+    padding: 1em 0.5em;
+    color: #494949;
+    background: #f4f4f4;
+    border-left: solid 5px #8efc45;
+    border-bottom: solid 2px #d7d7d7;
+    width: 90%;
+    margin: auto;
+
+}
+
+li{
+    text-align: left;
+    margin-left: 30%;
+}
+
+p {
+    font-size: 15px;
+    line-height: 210%;
+    text-align: center;
+    letter-spacing: 0.08em;
+    margin: 4.35em 1.5em;
+}
+
+.container.all {
+
+}
+
+.row.headall {
+
+}
+
+
+.img-fluid.mx-auto.d-block {
+}
+
+.fontsize10 {
+	font-size: 10px;
+}
+
+.fontsize17{
+	font-size: 17px;
+}
+
+.fontsize20 {
+	font-size: 20px;
+}
+
+.fontsize23{
+	font-size: 23px;
+}
+
+.fontsize26 {
+	font-size: 26px;
+}
+
+.fontsizedaidai{
+	font-size: 3em;
+}
+
+.red {
+	color: rgb(255, 37, 37);
+}
+
+.blue {
+	color: rgb(61, 61, 243);
+}
+
+.pink {
+	color: rgb(253, 139, 244);
+}
+
+.green {
+	color: rgb(0, 156, 0);
+}
+
+.orange {
+}
+
+.under{
+	text-decoration: underline;
+}
+
+
+.backyellow {
+	background-color: yellow;
+}
+
+.backgreen {
+    background-color: rgb(193, 253, 193);
+}
+
+
+.sui {
+}
+
+.video {
+}
+
+
+.fluffy {
+}
+
+.footer {
+}
+
+.footername {
+}
+
+.copy {
+}
